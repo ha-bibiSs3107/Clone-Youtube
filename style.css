@@ -50,7 +50,7 @@ body {
     background-color: #aaa;
 }
 
-.video-vottom-section {
+.video-bottom-section {
     display: flex;
     align-items: flex-start;
     margin-top: 1rem;
@@ -62,6 +62,7 @@ body {
     width: 36px;
     height: 36px;
     background-color: #aaa;
+    object-fit: cover;
 }
 
 .video-details {
@@ -134,7 +135,7 @@ body {
     padding: .5rem 1rem;
     font-size: inherit;
     cursor: pointer;
-    transition: background-color: 150ms;
+    transition:background-color: 150m;
 }
 
 .category:hover {
@@ -157,11 +158,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 10px;
 }
 
 .youtube-logo {
-    height: 20px;
+    height:150px;
 }
 
 .search-bar {
@@ -186,7 +187,7 @@ body {
     border: 1px solid #777;
     background-color: #f8f8f8;
     border-left: none;
-     border-top-left-radius: 0;
+    border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
 
@@ -196,7 +197,7 @@ body {
 
 .menu-icons {
     display: grid;
-    grid-template-columns: repeat (4, auto);
+    grid-template-columns: repeat(4, auto);
     align-items: center;
     gap: 1.5rem;
 }
@@ -206,4 +207,5 @@ body {
     width: 36px;
     height: 36px;
     background-color: #aaa;
+    object-fit: cover;
 }
