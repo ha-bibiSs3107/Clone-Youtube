@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Clone Youtube</title>
+    <link rel="stylesheet" href="style.css">
+    <!--inserir link fonte roboto regular 400 google fonts-->
+</head>
+
+<body>
+    <header class="header">
+        <a href="#">
+            <img src="./images/logo.png" alt="logo do youtube" class="youtube-logo">
+        </a>
+
+        <form class="search-bar">
+            <input class="search-input" type="search" placeholder="Search" aria-label="Search">
+            <button type="submit" class="search-btn">
+                <img src="./images/search.svg" alt="botão pesquisar">
+            </button>
+        </form>
+
+        <div class="menu-icons">
+            <a href="#">
+                <img src="./images/add.svg" alt="botão criar"> <!--upload-video-->
+            </a>
+
+            <a href="#">
+                <img src="./images/apps.svg" alt="botão apps"> <!--apps-->
+            </a>
+
+            <a href="#">
+                <img src="./images/notificação.svg" alt="botão notificação"> <!--notificações-->
+            </a>
+
+            <a href="#">
+                <img class="menu-channel-icon"
+                src="./images/canal.webp" alt="foto perfil"> <!--seu canal-->
+            </a>
+        </div>
+    </header>
+
+    <div class="categories">
+        <section class="category-section">
+            <button class="category active">Tudo</button>
+            <button class="category">Games</button>
+            <button class="category">Programação</button>
+            <button class="category">Música</button>
+            <button class="category">Documentários</button>
+            <button class="category">Filmes</button>
+            <button class="category">Live</button>
+            <button class="category">Desenhos</button>
+            <button class="category">Vlogs</button>
+            <button class="category">Outros</button>
+        </section>
+    </div>
+
+    <div class="videos">
+        <section class="video-section">
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:40">
+                 <img src="./images/thumb.jpg" alt="thumbnail de o incrivel mundo de gumball"> <!--inserir capa thumbnail-->
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="./images/canal.webp"> <!--imagem video?-->
+                    </a>
+
+                    <div class="video-details">
+                    <a href="#" class="video-title">🚨EPISÓDIO DE ESTREIA🚨: O HAMBÚRGUER 🍔😺 | O MUNDO MARAVILHOSAMENTE ESTRANHO DE GUMBALL |</a>
+                    <a href="#" class="video-channel-name">Beatriz Santos</a>
+
+                    <div class="video-metadata">
+                        <span>100 mil visualizações</span>
+                        •
+                        <span>há 1 dia</span>
+                    </div>
+                </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="1:16:17">
+                    <img src="./images/thumbnail2.webp"alt="thumbnail de pingu">
+                </a> <!--inserir capa thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="./images/canal.webp"> <!--imagem video?-->
+                    </a>
+
+                    <div class="video-details">
+                    <a href="#" class="video-title">Best Episodes from Season 4 | Pingu - Official Channel | Cartoons For Kids</a>
+                    <a href="#" class="video-channel-name">Beatriz Santos</a>
+
+                    <div class="video-metadata">
+                        <span>15 mi de visualizações</span>
+                        •
+                        <span>há 3 anos</span>
+                    </div>
+                </div>
+                </div>
+            </article>
+
+                <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="37:44">
+                 <img src="./images/thumbnail3.jpg"alt="thumbnail de yung lixo">
+                </a> <!--inserir capa thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="./images/canal.webp"> <!--imagem video?-->
+                    </a>
+
+                    <div class="video-details">
+                    <a href="#" class="video-title">yun li - bittersweet memories (full album)</a>
+                    <a href="#" class="video-channel-name">Beatriz Santos</a>
+
+                    <div class="video-metadata">
+                        <span>823 mil visualizações</span>
+                        •
+                        <span>há 1 ano</span>
+                    </div>
+                </div>
+                </div>
+            </article>
+
+                <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="2:18">
+                 <img src="./images/thumbnail4.avif"alt="thumbnail de katseye">
+                </a> <!--inserir capa thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="./images/canal.webp"> <!--imagem video?-->
+                    </a>
+
+                    <div class="video-details">
+                    <a href="#" class="video-title">KATSEYE (캣츠아이) "Touch" Official MV</a>
+                    <a href="#" class="video-channel-name">Beatriz Santos</a>
+
+                    <div class="video-metadata">
+                        <span>180 mi de visualizações</span>
+                        •
+                        <span>há 1 ano</span>
+                    </div>
+                </div>
+                </div>
+            </article>
+
+                <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="11:21">
+                 <img src="./images/thumbnail5.jpg"alt="thumbnail de outra semana no cartoon">
+                </a> <!--inserir capa thumbnail-->
+
+               <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="./images/canal.webp"> <!--imagem video?-->
+                    </a>
+
+                    <div class="video-details">
+                    <a href="#" class="video-title">Vocês Merecem | Outra Semana no Cartoon | S04 E07 | #FiqueEmCasa
+                    <a href="#" class="video-channel-name">Beatriz Santos</a>
+
+                    <div class="video-metadata">
+                        <span>3,6 mi de visualizações</span>
+                        •
+                        <span>há 7 anos</span>
+                    </div>
+                </div>
+                </div>
+            </article>
+
+                <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="2:29">
+                 <img src="./images/thumbnail6.avif"alt="thumbnail de evidências-paródia">
+                </a> <!--inserir capa thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="./images/canal.webp"> <!--imagem video?-->
+                    </a>
+
+                    <div class="video-details">
+                    <a href="#" class="video-title">Mike Wazowski Cantando Evidências da Terra Plana</a>
+                    <a href="#" class="video-channel-name">Beatriz Santos</a>
+
+                    <div class="video-metadata">
+                        <span>621 mil visualizações</span>
+                        •
+                        <span>há 2 anos</span>
+                    </div>
+                </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:08">
+                 <img src="./images/thumbnail7.jpg"alt="thumbnail de missing halloween curta">
+                </a> <!--inserir capa thumbnail-->
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="./images/canal.webp"> <!--imagem video?-->
+                    </a>
+
+                    <div class="video-details">
+                    <a href="#" class="video-title">Missing Halloween</a>
+                    <a href="#" class="video-channel-name">Beatriz Santos</a>
+
+                    <div class="video-metadata">
+                        <span>38 mi de visualizações</span>
+                        •
+                        <span>há 9 anos</span>
+                    </div>
+                </div>
+                </div>
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="4:11">
+                 <img src="./images/thumbnail8.avif"alt="thumbnail de musica guitar hero 3">
+                </a> <!--inserir capa thumbnail-->
+
+               <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="./images/canal.webp"> <!--imagem video?-->
+                    </a>
+
+                    <div class="video-details">
+                    <a href="#" class="video-title">Guitar Hero III (#45) Eric Johnson - Cliffs of Dover</a>
+                    <a href="#" class="video-channel-name">Beatriz Santos</a>
+
+                    <div class="video-metadata">
+                        <span>1.1 mi de visualizações</span>
+                        •
+                        <span>há 4 anos</span>
+                    </div>
+                </div>
+                </div>
+            </article>
+        </section>
+
+
+    </div>
+</body>
+</html>
