@@ -50,6 +50,10 @@ body {
     background-color: #aaa;
 }
 
+.thumbnail img{
+    border-radius: 10px;
+}
+
 .video-bottom-section {
     display: flex;
     align-items: flex-start;
