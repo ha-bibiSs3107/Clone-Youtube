@@ -181,8 +181,8 @@ body {
     font-size: inherit;
     padding: .4rem;
     border: 1px solid #777;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .search-btn {
@@ -192,8 +192,8 @@ body {
     border: 1px solid #777;
     background-color: #f8f8f8;
     border-left: none;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .search-btn:hover {
